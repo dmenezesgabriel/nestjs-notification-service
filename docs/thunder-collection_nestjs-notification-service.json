@@ -1,0 +1,42 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "nestjs-notification-service",
+    "dateExported": "2024-01-06T22:25:04.262Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1e971c83-8dae-4504-9904-8c7ae8e7e8a2",
+            "colId": "46933ec9-8dc3-461b-9a01-808aa572212b",
+            "containerId": "",
+            "name": "http://localhost:3000/notifications",
+            "url": "http://localhost:3000/notifications",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-01-06T18:38:26.638Z",
+            "modified": "2024-01-06T18:38:26.638Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "dcffdbf8-29ed-40b3-b451-38b981af82af",
+            "colId": "46933ec9-8dc3-461b-9a01-808aa572212b",
+            "containerId": "",
+            "name": "http://localhost:3000/notifications",
+            "url": "http://localhost:3000/notifications",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-01-06T18:40:58.414Z",
+            "modified": "2024-01-06T22:24:53.644Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"content\": \"Nova notificação de teste!\",\n  \"category\": \"teste\",\n  \"recipientId\": \"{{#guid}}\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
