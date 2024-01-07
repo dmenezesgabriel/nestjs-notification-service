@@ -7,6 +7,7 @@ import { Injectable } from '@nestjs/common';
 @Injectable()
 export class PrismaNotificationRepository implements NotificationRepository {
   constructor(private prismaService: PrismaService) {}
+
   async findById(notificationId: string): Promise<Notification> {
     throw new Error('Method not implemented.');
   }
@@ -19,6 +20,10 @@ export class PrismaNotificationRepository implements NotificationRepository {
   }
 
   async save(notification: Notification): Promise<void> {
+    throw new Error('Method not implemented.');
+  }
+
+  countManyByRecipientId(recipientId: any): Promise<number> {
     throw new Error('Method not implemented.');
   }
 }
