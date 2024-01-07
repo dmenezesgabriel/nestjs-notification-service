@@ -1,0 +1,12 @@
+{
+    "client": "Thunder Client",
+    "environmentName": "nestjs-notification-service",
+    "dateExported": "2024-01-07T19:29:12.581Z",
+    "version": "1.0",
+    "variables": [
+        {
+            "name": "host",
+            "value": "http://localhost:3000"
+        }
+    ]
+}

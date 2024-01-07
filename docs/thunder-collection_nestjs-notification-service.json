@@ -1,34 +1,20 @@
 {
     "client": "Thunder Client",
     "collectionName": "nestjs-notification-service",
-    "dateExported": "2024-01-06T22:25:04.262Z",
+    "dateExported": "2024-01-07T19:28:57.825Z",
     "version": "1.1",
     "folders": [],
     "requests": [
         {
-            "_id": "1e971c83-8dae-4504-9904-8c7ae8e7e8a2",
-            "colId": "46933ec9-8dc3-461b-9a01-808aa572212b",
+            "_id": "55408a6c-e19b-4001-8067-788799017b03",
+            "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
             "containerId": "",
-            "name": "http://localhost:3000/notifications",
-            "url": "http://localhost:3000/notifications",
-            "method": "GET",
-            "sortNum": 20000,
-            "created": "2024-01-06T18:38:26.638Z",
-            "modified": "2024-01-06T18:38:26.638Z",
-            "headers": [],
-            "params": [],
-            "tests": []
-        },
-        {
-            "_id": "dcffdbf8-29ed-40b3-b451-38b981af82af",
-            "colId": "46933ec9-8dc3-461b-9a01-808aa572212b",
-            "containerId": "",
-            "name": "http://localhost:3000/notifications",
-            "url": "http://localhost:3000/notifications",
+            "name": "Send Notification",
+            "url": "{{host}}/notifications",
             "method": "POST",
             "sortNum": 30000,
-            "created": "2024-01-06T18:40:58.414Z",
-            "modified": "2024-01-06T22:24:53.644Z",
+            "created": "2024-01-07T00:02:13.754Z",
+            "modified": "2024-01-07T18:42:18.962Z",
             "headers": [],
             "params": [],
             "body": {
@@ -37,6 +23,65 @@
                 "form": []
             },
             "tests": []
+        },
+        {
+            "_id": "c7dca968-64b1-408d-8a4d-3bca1b2ffe01",
+            "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
+            "containerId": "",
+            "name": "Cancel Notification",
+            "url": "{{host}}/notifications/a079f446-d921-412d-be24-7b2fcfc18f0d/cancel",
+            "method": "PATCH",
+            "sortNum": 32500,
+            "created": "2024-01-07T18:42:49.450Z",
+            "modified": "2024-01-07T19:24:54.845Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d6f3b325-7e33-4e34-bc4a-a1c91e90ea91",
+            "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
+            "containerId": "",
+            "name": "Read Notification",
+            "url": "{{host}}/notifications/a079f446-d921-412d-be24-7b2fcfc18f0d/read",
+            "method": "PATCH",
+            "sortNum": 33750,
+            "created": "2024-01-07T19:26:16.291Z",
+            "modified": "2024-01-07T19:26:34.207Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "469f434d-8737-453a-9273-fcf109d273b7",
+            "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
+            "containerId": "",
+            "name": "Unread Notification",
+            "url": "{{host}}/notifications/a079f446-d921-412d-be24-7b2fcfc18f0d/unread",
+            "method": "PATCH",
+            "sortNum": 34375,
+            "created": "2024-01-07T19:26:45.907Z",
+            "modified": "2024-01-07T19:27:02.130Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d052592f-52dd-44cb-b1ab-143b5b0ca738",
+            "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
+            "containerId": "",
+            "name": "Count Noitifications By Recipient",
+            "url": "{{host}}/notifications/count/from/76d0bc3b-5675-4bfd-8e38-022f0a5b0c31",
+            "method": "GET",
+            "sortNum": 35000,
+            "created": "2024-01-07T18:52:04.390Z",
+            "modified": "2024-01-07T18:55:01.223Z",
+            "headers": [],
+            "params": [],
+            "tests": []
         }
-    ]
+    ],
+    "settings": {
+        "envId": "adfab274-4a5a-4b7a-8908-379c0999c284"
+    }
 }
