@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "nestjs-notification-service",
-    "dateExported": "2024-01-07T19:28:57.825Z",
+    "dateExported": "2024-01-07T19:32:14.979Z",
     "version": "1.1",
     "folders": [],
     "requests": [
@@ -70,12 +70,26 @@
             "_id": "d052592f-52dd-44cb-b1ab-143b5b0ca738",
             "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
             "containerId": "",
-            "name": "Count Noitifications By Recipient",
+            "name": "Count Notifications By Recipient",
             "url": "{{host}}/notifications/count/from/76d0bc3b-5675-4bfd-8e38-022f0a5b0c31",
             "method": "GET",
             "sortNum": 35000,
             "created": "2024-01-07T18:52:04.390Z",
             "modified": "2024-01-07T18:55:01.223Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "be4aa304-7721-49b6-af93-a9593173f467",
+            "colId": "f0bea5b0-22d3-4ce9-ad7f-0cac6b0f6d36",
+            "containerId": "",
+            "name": "Notifications By Recipient",
+            "url": "{{host}}/notifications/from/76d0bc3b-5675-4bfd-8e38-022f0a5b0c31",
+            "method": "GET",
+            "sortNum": 45000,
+            "created": "2024-01-07T19:31:00.654Z",
+            "modified": "2024-01-07T19:31:34.034Z",
             "headers": [],
             "params": [],
             "tests": []
